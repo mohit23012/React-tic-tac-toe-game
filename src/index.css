@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  @apply bg-gray-900
+}
+/* .boxes{
+  @apply flex h-20 bg-slate-500 rounded-lg cursor-pointer
+}
+.board{
+  @apply h-20 flex bg-slate-500
+} */
+.boxes{
+  @apply  flex h-24  w-24 bg-slate-600
+}
